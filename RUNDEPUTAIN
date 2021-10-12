@@ -1,0 +1,24 @@
+#!/bin/bash
+
+
+#|||||||||||||#
+#|by_51M30N|||#
+#|for__StuART|# KLD
+#|||||||||||||# rev 12102021
+#|||||||||||||#
+
+sudo killall pd python3
+
+# SCAN I2C
+i2cdetect -y 1 &
+
+# run pd patch
+pd PUTAINDEPATCH.pd &
+
+# run python script
+python3 KLD-5011.py &
+python3 KLD-5012.py &
+python3 KLD-5013.py &
+python3 KLD-5014.py &
+python3 KLD-5050.py &
+exit
