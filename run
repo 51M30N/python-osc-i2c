@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+#|||||||||||||#
+#|by_51M30N|||#
+#|for__StuART|#
+#|||||||||||||# rev 01092019
+#|||||||||||||#
+
+
+
+# run ps scripts
+pd -nogui sender-test.pd &
+
+# run python 
+python3 OSC_to_I2C-5011.py &
+python3 OSC_to_I2C-5012.py &
+python3 OSC_to_I2C-5013.py &
+python3 OSC_to_I2C-5014.py &
+python3 OSC_to_I2C-5015.py &
+exit
