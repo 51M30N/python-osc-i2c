@@ -6,7 +6,7 @@
 ## installation 
 ```
 cd /Mon/Dossier
-git clone https://github.com/51M30N/StuART.git
+git clone https://github.com/51M30N/python-osc-i2c.git
 ```
 
 pour ONAVIO KLD
