@@ -13,7 +13,7 @@ sudo killall pd python3
 i2cdetect -y 1 &
 
 # run pd patch
-pd -nogui PUTAINDEPATCH.pd &
+pd -nogui PureData_to_python_OSC.pd &
 
 # run python script
 python3 KLD-5011.py &
