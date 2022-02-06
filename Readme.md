@@ -10,7 +10,7 @@ les patchs pytgons envoient les ordres via I2C aux Arduino
  
 ## basé sur
 https://github.com/attwad/python-osc
-<https://pypi.org/project/python-osc/>
+https://pypi.org/project/python-osc/
 
 
 
@@ -36,8 +36,12 @@ cd ~/Mon/Dossier/python-osc-i2c/
 ./main_OSC_to_Pd_to_python_to_i2c
 ```
 
+# adresses i2c
+les adresses i2c peuvent être changées dans les patchs python
 
 
+# Codes Arduino compatibles
+https://github.com/51M30N/MultipleSteppers_KLD
 
 
 
