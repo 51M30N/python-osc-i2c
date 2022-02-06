@@ -46,6 +46,7 @@ https://github.com/51M30N/MultipleSteppers_KLD
 
 
 
+# notes et refs pour plus tard
 
 #### test d'un autre oscsender python a faire
 ```
